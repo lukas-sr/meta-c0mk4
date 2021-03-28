@@ -1,0 +1,9 @@
+[Unit]
+Description=A simple application
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/king.py
+
+[Install]
+WantedBy=multi-user.target
